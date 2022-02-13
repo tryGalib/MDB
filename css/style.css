@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.gradient {
+  background: rgb(39,120,255);
+  background: linear-gradient(137deg, rgba(39,120,255,1) 0%, rgba(34,88,194,1) 30%, rgba(86,31,170,1) 97%, rgba(90,28,166,1) 100%); 
+}
+
+.py-6 {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.check-list li {
+  list-style-type: none;
+  background: url(../img/check.svg) no-repeat;
+  padding-left: 32px;
+  margin: 10px 0;
+}
+
+.icon {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.active {
+  font-weight: 700;
+  color: #3C3CB6 !important;
+}
